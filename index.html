@@ -1,22 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<tittle> we are from cybrome institude</tittle>
-   <h1> niharika sonekar </h1>
-   <ul>
-    <li>computer coding language</li>
-   </ul>
-   <ol> 
-    <li> java</li>
-    <li> oracal</li>
-    <li>c++</li>
-   </ol>
-   <ol>
-<ul><li> computarts parts </li></ul>
-<li>mother board </li>
-<li>mouse</li>
-</ol>
-</body>
-    
-   </body>
-</html>
+#include <iostream>
+   using namespace std;
+   int main()
+   {
+   int num=151;
+       int a=num;
+       int sum=0;
+       while(num!=0){
+           int m=num%10;sum+=m*m*m;
+            num/=10;
+       }
+       
+       
+       if(a==sum){cout<<"amstong number";}
+       else{cout<<"not an amstrong number";}
+   }
