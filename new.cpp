@@ -1,16 +1,21 @@
 #include <iostream>
 using namespace std;
-int main()
+int main() 
 {
-    int num= 2;
-    int power=3;
-    int ans=1;
-    for(int i=i;1<=3;++i)
+    int sn=6;
+    int ln=7;
+    int lcm=1;
+    for(int i=ln;;i=i+ln)
     {
-        ans=ans*num;
+    if(i%sn==o && i%ln==0)
+    {
+    lcm=i;
+    break;
     }
-    cout<<ans;
+
     }
+    cout<<lcm;
+}
 
 
 

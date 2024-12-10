@@ -58,9 +58,17 @@ ul li{
    font-family: Arial;
    font-weight: bold;
    transition: 0.45 case-in-out;
-} */
+/* } */
 /* ul li a:hover{
 color:greenyellow;
-} */
+} * */
+body{
+   background-image: url(carousel-1.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
 }
+
 
