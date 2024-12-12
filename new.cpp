@@ -2,19 +2,18 @@
 using namespace std;
 int main() 
 {
-    int sn=6;
-    int ln=7;
-    int lcm=1;
-    for(int i=ln;;i=i+ln)
-    {
-    if(i%sn==o && i%ln==0)
-    {
-    lcm=i;
-    break;
-    }
 
-    }
-    cout<<lcm;
+    int a=0;
+    int n=5;
+    int d=2;
+    int sum=0;
+
+    for(int i=0;i<n;++i)
+    {
+    sum=a*i*d;
+    cout<<sum;
+    {
+    
 }
 
 
