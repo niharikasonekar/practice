@@ -1,12 +1,46 @@
 *{
    margin: 0px;
    padding: 0px;
+   box-sizing: border-box;
 }
 #top{
    width: 100%;
-   display: flex;
-   justify-content: center;
+   display:flex;
+   justify-content: space-between;
    align-items: center;
-   position: absolute;
+   height: 60px;
+   padding: 20px 35px;
+   position:absolute; 
 
 }
+
+nav{
+   display: flex;
+   gap: 20px;
+}
+#top nav ul{ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+}
+#top nav button{
+   padding-top: 10px;
+   padding-left:30px;
+   padding-right:30px;
+   padding-bottom:10px;
+}
+
+.home img{
+    height: 500px;
+    width: 100%;
+    
+}
+
+.imgtext{
+   font-style: italic;
+   font-size: large;
+}
+#section.button1{
+
+} 
