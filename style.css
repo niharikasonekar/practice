@@ -28,8 +28,11 @@ nav{
 #top  button{
    padding-top: 10px;
    padding-left:30px;
-   padding-right:30px;
+   padding-right:50px;
    padding-bottom:10px;
+   background-color: chartreuse;
+   font-size: large;
+   font-family: Cambria;
 }
 
 
@@ -45,9 +48,52 @@ nav{
    height: 100vh;
    border: 1px solid black;
    background-image: url(carousel-1.jpg);
-   /* background-image: url(carousel-1.jpg); */
    background-size: cover;
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-direction: column;
+}
+.home h1{
+font-style: italic;
+font-family: Arial,
+}
+   
+.home .b1{
+   padding-top: 10px;
+   padding-left:40px;
+   padding-right:40px;
+   padding-bottom:5px;
+   border-radius: 100px;
+   background-color: orangered;
+   font-size: large;
+   font-family:Cambria;
+
+}
+.home .b2{
+   padding-top: 10px;
+   padding-left:40px;
+   padding-right:40px;
+   padding-bottom:5px;
+   border-radius: 100px;
+   background-color: teal;
+    font-size: large;
+    font-family:Cambria;
+
+}
+.home h1{
+   color: aliceblue;
+   font-size: 60px;
+   margin-right:400px;
+}
+.home p{
+   color: aliceblue;
+   font-family:Arial;
+   font-style:italic;
+   font-size:25px;
+   margin-right: 300px;
+}
+.home .button{
+   display: flex;
+   margin-right: 400px;
 }
